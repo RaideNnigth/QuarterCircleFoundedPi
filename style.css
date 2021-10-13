@@ -1,0 +1,33 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+html, body, main{
+    width: 100%;
+    height: 100%;
+    background-color:darkgray;
+}
+#box_{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+#in_box{
+    display: flex;
+    flex-direction: column;
+}
+#canvas{
+    background-color: antiquewhite;
+    height: 600px;
+    width: 600px;
+}
+#start-button{
+    font-size: 30px;
+}
+#input{
+    height: 30px;
+}
